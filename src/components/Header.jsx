@@ -6,9 +6,9 @@ function Header() {
   return (
     <header>
       <nav className='flex justify-around items-center px-1 py-3 sm:justify-end'>
-        <div class='flex rounded-full border-grey-light border w-4/6 sm:w-2/5 sm:mx-10'>
+        <div className='flex rounded-full border-grey-light border w-4/6 sm:w-2/5 sm:mx-10'>
           <button>
-            <span class='w-auto flex justify-end items-center text-grey p-2'>
+            <span className='w-auto flex justify-end items-center text-grey p-2'>
               <img src={searchIcon} alt="Search Icon" className='w-8'></img>
             </span>
           </button>
