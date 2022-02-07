@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import heroImages from '../images/heroImages';
 
 import 'swiper/css';
-
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
@@ -20,7 +19,7 @@ function HeroCarousel() {
       className="h-60"
     >
       { heroImages.map((image) => (
-        <SwiperSlide className="h-72 bg-blue cursor-pointer">
+        <SwiperSlide className="h-72 cursor-pointer">
           <img className="object-cover h-full w-full" alt="Propaganda" src={image}></img>
         </SwiperSlide>
       )) }
