@@ -16,11 +16,11 @@ function HeroCarousel() {
       slidesPerView={1}
       navigation
       pagination={{ clickable: true }}
-      className="h-60"
+      className="h-44 md:h-80"
     >
       { heroImages.map((image) => (
-        <SwiperSlide className="h-72 cursor-pointer">
-          <img className="object-cover h-full w-full" alt="Propaganda" src={image}></img>
+        <SwiperSlide className="h-44 cursor-pointer">
+          <img className="object-fill h-full md:w-full" alt="Propaganda" src={image}></img>
         </SwiperSlide>
       )) }
     </Swiper>

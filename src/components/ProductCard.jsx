@@ -2,7 +2,7 @@ import React from 'react';
 
 function ProductCard() {
   return (
-    <div className='px-6 pt-6 pb-4 w-full shadow'>
+    <div className='px-6 pt-8 pb-4 w-full shadow'>
       <img
         src='https://http2.mlstatic.com/D_NQ_NP_753068-MLA48354136424_112021-V.webp'
         alt='Celular'
