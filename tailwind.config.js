@@ -6,11 +6,13 @@ module.exports = {
     extend: {},
     colors: {
       blue: '#1EA0AE',
-      green: '#CBFF8C',
+      green: '#1F8C17',
       white: '#F0F7F4',
       red: '#E15554',
       black: '#000',
-      yellow: '#E3E36A'
+      yellow: '#E3E36A',
+      gray: '#CCCCCC',
+
     },
     fontFamily: {
       sans: ['"Lato"']
