@@ -1,4 +1,5 @@
 import React from 'react';
+import CategoryList from './components/CategoryList';
 import DailyOffers from './components/DailyOffers';
 import Header from './components/Header';
 import HeroCarousel from './components/HeroCarousel';
@@ -8,7 +9,8 @@ function App() {
     <div>
       <Header />
       <HeroCarousel />
-      <DailyOffers /> 
+      <DailyOffers />
+      <CategoryList />
     </div>
   );
 }
