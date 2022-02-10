@@ -1,13 +1,13 @@
-import React from 'react'
-import AppContext from './AppContext'
+import React, { useState } from 'react';
+import AppContext from './AppContext';
 
 function Provider({ children }) {
-  const contextValue = {};
+  const [homeDailyOffers, setHomeDailyOffers] = useState({});
+
+  const contextValue = { homeDailyOffers, setHomeDailyOffers };
   return (
-    <AppContext.Provider value={contextValue}>
-      {children}
-    </AppContext.Provider>
-  )
+    <AppContext.Provider value={ contextValue }>{children}</AppContext.Provider>
+  );
 }
 
-export default Provider
+export default Provider;
